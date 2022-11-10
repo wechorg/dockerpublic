@@ -21,4 +21,4 @@ jobs:
       - name: pull internal image
         run: docker pull ghcr.io/wechorg/fromgithubtoken:6
       - name: list docker images
-        run: ls
+        run: docker image ls
